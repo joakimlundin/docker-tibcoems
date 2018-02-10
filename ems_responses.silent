@@ -1,0 +1,20 @@
+<?xml  version="1.0"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+   <entry key="acceptLicense">true</entry>
+   <entry key="installationRoot">/opt/tibco</entry>
+   <entry key="environmentName">TIBCO-HOME</entry>
+   <entry key="environmentDesc">my installation</entry>
+   <entry key="configDirectoryRoot">/opt/tibco/config-root</entry>
+   <entry key="LGPLAssemblyLicenseAccepted">true</entry>
+   <entry key="LGPLAssemblyDownload">true</entry>
+   <entry key="LGPLAssemblyPath">/opt/tibco/thirdpartyDownload</entry>
+   <entry key="feature_EMS Server Baseline_ems">true</entry>
+   <entry key="feature_Development Kit_ems">true</entry>
+   <entry key="feature_EMS Client Baseline_ems">true</entry>
+   <entry key="feature_EMS Source_ems">true</entry>
+   <entry key="feature_Hibernate (For Database Stores)_ems">false</entry>
+   <entry key="feature_EMS Central Administration_ems">false</entry>
+   <entry key="setUID">false</entry>
+   <entry key="configFile">/opt/tibco/config-root/cfgmgmt/ems/data/tibemsd.conf</entry>
+</properties>
