@@ -18,7 +18,7 @@ RUN apt-get update && \
    chown tibco:tibco -R ${TIBCO_HOME}
 
 # Add benchmark queue
-RUN echo "benchmark prefetch=100" | tee -a ${TIBCO_HOME}/config-root/tibco/cfgmgmt/ems/data/queues.conf
+RUN echo "benchmark prefetch=1000" | tee -a ${TIBCO_HOME}/config-root/tibco/cfgmgmt/ems/data/queues.conf
 
 # Mount data directory
 VOLUME ${TIBCO_HOME}/config-root/tibco/cfgmgmt/ems/data/datastore
