@@ -5,7 +5,7 @@ FROM debian:stretch-slim
 RUN useradd -m tibco
 
 # Install TIBCO EMS
-ENV TIBCO_HOME /opt/tibco
+ARG TIBCO_HOME=/opt/tibco
 WORKDIR ${TIBCO_HOME}/tmp
 ADD --chown=tibco:tibco TIB_ems_8.4.0_linux_x86_64.zip .
 ADD --chown=tibco:tibco ems_responses.silent .
